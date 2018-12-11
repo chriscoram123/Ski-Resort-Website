@@ -1,0 +1,426 @@
+/*
+<!--- ==== START STYLESHEET FUNCTIONS ==== --->
+<!--- ==== START STYLESHEET LIST ==== --->
+<!-- ONE: Provide coloring and shape to all divs, articles, etc. -->
+<!-- TWO: Provide responsiive loading features to all html tags -->
+<!-- THREE: Responsible for positioning of content -->
+<!--______END STYLESHEET LIST______-->
+*/
+/*____________________________________________________________________________________________________________*/
+/* START HTML TAG DESCRIPTION */  
+/* Area of CSS code will contain html tags for better organization and development */
+/* END HTML DESCRIPTION */
+/*___________________________*/
+body {
+ padding: 5px;
+ margin: 5px;
+ background: #001f3f;
+ background-size: cover;
+ background-position: center;
+}
+main {
+ height: 700px;
+ width: 1700px;
+}
+h1 {
+ position: relative;
+ top: -35px;
+ left: 55px;
+}
+h2 {
+ float: left;
+ position: relative;
+ left: -1040px;
+ top: -20px;
+ font-size: 17px;
+}
+h3 {
+ position: relative;
+ top: -30px;
+ background-image: linear-gradient(to right, white, #007991 100%);
+ height: 40px;
+}
+h5 {
+position: relative;
+top: -49px;
+font-size: 30px;
+background-image: linear-gradient(to right, white, #007991 100%);
+height: 45px;
+}
+h6 {
+position: relative;
+top: -68px;
+font-size: 30px;
+background-image: linear-gradient(to right, white, #007991 100%);
+height: 45px;
+}
+hr {
+ position: relative;
+ top: 100px;
+ width: 400px;
+}
+input {
+ position: relative;
+ top: -80px;
+ left: 8px;
+ width: 800px;
+ height: 30px;
+ border: 1px solid black;
+}
+li {
+ position: relative;
+ top: 30px;
+ left: -115px;
+}
+/*______END HTML TAGS______*/
+
+
+/* START CLASS NAMES DESCRIPTION */
+/* Area of CSS code will contain class names for better orginization and development */   
+/* END CLASS NAMES DESCRIPTION */
+/*_______________________________*/ 
+.box1 {
+ float: left;
+ width: 800px;
+ position: relative;
+ top: 20px;
+ left: -260px;
+}
+.img3 {
+ float: left;
+ position: relative;
+ top: 40px;
+ box-shadow: 1px 4px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.img4 {
+ float: left;
+ position: relative;
+ left: 20px;
+ top: 40px;
+ box-shadow: 1px 4px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.img5 {
+ float: left;
+ position: relative;
+ left: 50px;
+ top: 40px;
+ box-shadow: 1px 4px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.img6 {
+ float: left;
+ position: relative;
+ left: 80px;
+ top: 40px;
+ box-shadow: 1px 4px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.img7 {
+ float: left;
+ position: relative;
+ left: 100px;
+ top: 40px;
+ box-shadow: 1px 4px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.img8 {
+ padding: 5px;
+ margin: 5px;
+ border-radius: 200px 200px 200px 200px;
+ position: relative;
+ left: 10px;
+}
+.one {
+ height: 600px;
+ width: 800px;
+ float: left;
+ position: relative;
+ left: 450px;
+ padding: 5px;
+ margin: 5px;
+ background: linear-gradient(to bottom, #88F3EF 100%, #89F5CF);
+}
+.two {
+ height: 600px;
+ width: 800px;
+ float: left;
+ position: relative;
+ left: 450px;
+ padding: 5px;
+ margin: 5px;
+ background: linear-gradient(to top,#001f3f, white 100%);
+}
+.header {
+ height: 40px;
+ background: linear-gradient(to left,#001f3f, #89F5CF 100%);
+ padding: 5px;
+ margin: 5px;
+}
+.footer {
+ height: 40px;
+ position: relative;
+ top: 1280px;
+ background: rgba(0, 0, 0, 0.2);
+ padding: 5px;
+ margin: 5px;
+}
+.imgdiv {
+ float: left;
+ height: 350px;
+ width: 385px;
+ box-shadow: 1px 4px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.imgdiv2 {
+float: right;
+height: 600px;
+width: 400px;
+position: relative;
+left: 0px;
+background: white;
+}
+.imgdiv3 {
+ float: left;
+ width: 383px;
+ height: 235px;
+ position: relative;
+ top: 5px;
+}
+.bottom-section {
+ width: 795px;
+ height: 305px;
+ position: relative;
+ top: 140px;
+}
+.bottom-section-left {
+ float: left;
+ height: 300px;
+ width: 450px;
+ position: relative;
+ top: 8px;
+ background: linear-gradient(to bottom, #88F3EF 100%, #89F5CF);
+}
+.bottom-section-right {
+ float: right;
+ height: 300px;
+ width: 330px; 
+ background: linear-gradient(to bottom, #88F3EF 100%, #89F5CF);
+ position: relative;
+ top: 8px;
+}
+.show-more {
+ border: solid black 2px;
+ position: relative;
+ top: 70px;
+}
+.chart {
+ border: solid black 2px;
+ position: relative;
+ top: 130px;
+}
+.menu-icon {
+ border: solid black 1px;
+ position: relative;
+ top: 50px;
+}
+.ad1 {
+    float: left;
+    position: relative;
+    top:150px;
+    left: 80px;
+    width: 255px;
+    height: 1000px;
+    background: linear-gradient(to top,#001f3f, #89F5CF 100%);
+}
+.ad2 {
+    float: right;
+    position: relative;
+    top: 150px;
+    left: -80px;
+    width: 255px;
+    height: 1000px;
+    background: linear-gradient(to top,#001f3f, #89F5CF 100%);
+}
+.menu-icon {
+ position: relative;
+ left: 1600px;
+ top: -130px;
+ border: solid black 2px;
+}
+.title {
+ height: 48px;
+ opacity: 1px;
+ background: linear-gradient(to left, #89F5CF, #283c86 100%);
+ position: relative;
+ top: 0px;
+ font-family: 'Dancing Script', cursive;
+ padding: 5px;
+ margin: 5px;
+}
+.title2 {
+height: 40px;
+opacity: 1px;
+background: linear-gradient(to left, #89F5CF, #283c86 100%);
+position: relative;
+top: 0px;
+box-shadow: 1px 4px 1px 2px rgba(0, 0, 0, 0.1);
+font-family: 'Dancing Script', cursive;
+font-size: 25px;
+padding: 5px;
+margin: 5px;
+}
+.title3 {
+height: 49px;
+opacity: 1px;
+background: linear-gradient(to left, #89F5CF, #283c86 100%);
+position: relative;
+top: 0px;
+padding: 5px;
+margin: 5px;
+font-family: 'Dancing Script', cursive;
+font-size: 25px;
+}
+.imgdiv-img2 {
+ border-radius: 200px 200px 200px 200px;
+ position: relative;
+ top: 10px;
+}
+.imgdiv-img3 {
+ float: left;
+ position: relative;
+ top: 5px;
+}
+.imgdiv-img4 {
+ border-radius: 200px 200px 200px 200px;
+ position: relative;
+ top: 5px;
+ left: 10px;
+ float: left;
+}
+.imgdiv-img5 {
+ border-radius: 200px 200px 200px 200px;
+ position: relative;
+ top: 5px;
+ left: -10px;
+ float: right;
+}
+.Buying-options-selection {
+ height: 161px;
+ width: 153px;
+ background: white;
+ position: relative;
+ top: 5px;
+ left: 115px;
+}
+.review-image {
+ float: left;
+ padding: 5px;
+ margin: 5px;
+ border-radius: 200px 200px 200px 200px;
+}
+.paragraph-information {
+ background: linear-gradient(to bottom, #283c86 ,#89F5CF 220%);
+ float: right;
+ position: relative;
+ left: 10px;
+ top: -15px;
+ width: 250px;
+ height: 150px;
+ padding: 5px;
+ margin: 5px;
+}
+.review-info-div {
+ float: left;
+ position: relative;
+ top: -147px;
+ left: -2px;
+ padding: 5px;
+ margin: 5px;
+}
+.ad1-img1 {
+ position: relative;
+ top: 45px;
+ background: blue;
+ width: 250px;
+ border-radius: 150px 150px 150px 150px;
+}
+.ad1-img2 {
+position: relative;
+top: 55px;
+background: pink;
+width: 150px;
+border-radius: 150px 150px 150px 150px;
+}
+.ad1-img3 {
+position: relative;
+top: 70px;
+background: red;
+border-radius: 150px 150px 150px 150px;
+}
+.ad1-img4 {
+position: relative;
+top: 80px;
+background: pink;
+width: 150px;
+border-radius: 150px 150px 150px 150px;
+}
+.ad1-img5 {
+ position: relative;
+ top: 90px;
+ background: blue;
+ width: 250px;
+ border-radius: 150px 150px 150px 150px;
+}
+.review-quote {
+position: relative;
+top: 0px;
+font-size: 20px;
+}
+.review-content-background {
+ background: white;
+ height: 213px;
+ padding: 5px;
+ margin: 5px;
+}
+/*______END HTML TAGS______*/
+
+
+/* START CLASS NAMES DESCRIPTION */
+/* Area of CSS code will contain class names for better orginization and development */   
+/* END CLASS NAMES DESCRIPTION */
+/*_______________________________*/ 
+
+
+
+
+/*______END CLASS NAMES______*/
+
+
+
+
+/* START KEY FRAMES DESCRIPTION */
+/* Key frames will be used to add responsive design to html durning loading periods*/
+/* END START KEY FRAMES DESCRIPTION */
+/* _____________________________*/
+
+
+
+/*_______END KEY FRAMES_______*/
+
+
+
+
+/* START BOOTSTAP NODES DESCRIPTION */
+/* Bootstaro nodes will assist development in responsive design/software */
+/* END BOOTSTAP NODES DESCRIPTION */
+/*__________________________________*/
+/* START BOOTSTRAP/IMPORTS */
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+
+@import '~@angular/material/theming';
+/*________END BOOTSTRAP/IMPORTS_______*/
+/*<!--______END STYLESHEET FUNCTIONS______-->*/
