@@ -1,0 +1,17 @@
+/* START KEY FRAMES DESCRIPTION */
+/* Key frames will be used to add responsive design to html durning loading periods*/
+/* END START KEY FRAMES DESCRIPTION */
+/* _____________________________*/
+@keyframes adChange {
+ from {background-image: linear-gradient(to top,#001f3f, #89F5CF 100%);}
+ to {background-image: linear-gradient(to top, #000046, #1cb5e0 100%)}
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+/*_______END KEY FRAMES_______*/
+
